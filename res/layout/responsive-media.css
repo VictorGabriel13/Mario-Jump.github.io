@@ -1,0 +1,25 @@
+@media (max-width: 800px) {
+    #Fundo_Principal {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 30%;
+    }
+  }
+  @media (max-width: 1020px) {
+    #Fundo_Principal {
+      width: 80%;
+      margin-left: 5%;
+      margin-top: 45%;
+    }
+    #Principal {
+        white-space: nowrap;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    #button_OpenGamePlay {
+        font-size: 17px;
+        width: 75%;
+        
+    }
+
+}

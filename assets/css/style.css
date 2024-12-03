@@ -1,0 +1,58 @@
+body {
+    background-color: #CCD0CF;
+    font-family: Arial;
+}
+#button_OpenGamePlay {
+    background-color: rgb(85, 85, 169);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    width: 45%;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+#Fundo_Principal {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgba(244, 240, 240, 0.805);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.551);
+}
+#Principal {
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+#Version, #About {
+    font-size: 0.8em;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: scroll 15s linear infinite;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
